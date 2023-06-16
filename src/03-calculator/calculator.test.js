@@ -13,9 +13,9 @@ test('multiples 4 * 3 to equal 12', () => {
 });
 
 test('divides 4 / 2 to equal 2', () => {
-  expect(calculator.multiply(4, 2)).toEqual(2);
+  expect(calculator.divide(4, 2)).toEqual(2);
 });
 
 test('divides 4 / 0 to equal error', () => {
-  expect(calculator.multiply(4, 0)).toBe('Error: Division by zero is not allowed.');
+  expect(calculator.divide(4, 0)).toBe('Error: Division by zero is not allowed.');
 });
