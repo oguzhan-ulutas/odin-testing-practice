@@ -9,9 +9,9 @@ test('xyz to zab', () => {
 });
 
 test('xYZ to zAB', () => {
-  expect(caesarCipher('xyz', 2)).toBe('zAB');
+  expect(caesarCipher('xYZ', 2)).toBe('zAB');
 });
 
 test('xYZ?!,. to zAB?!,.', () => {
-  expect(caesarCipher('xyz', 2)).toBe('zAB?!,.');
+  expect(caesarCipher('xYZ?!,.', 2)).toBe('zAB?!,.');
 });
